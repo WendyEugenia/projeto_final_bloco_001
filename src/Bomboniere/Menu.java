@@ -1,8 +1,10 @@
 package Bomboniere;
 
-import java.util.InputMismatchException;
+import Bomboniere.model.Produtos;
+
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class Menu {
 
 	public static void main(String[] args) {

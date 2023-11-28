@@ -1,7 +1,7 @@
 package Bomboniere;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
+import Bomboniere.model.Produto;
 
 public class Menu {
 
@@ -42,19 +42,19 @@ public class Menu {
 			
 			switch (opcao) {
 			case 1:
-				System.out.println( "\n Adicionar Produto ");			
+				System.out.println( "\n Novo Produto");			
 				break;
 			case 2:
-				System.out.println( "\n Buscar produto");				
+				System.out.println( "\n Listar produtos por ID" );				
 				break;
 			case 3:
-				System.out.println( "\nListar produtos por ID");		
+				System.out.println( "\nDeletar produto  ");		
 				break;
 			case 4:
 				System.out.println("\nAtualizar produto");		
 				break;
 			case 5:
-				System.out.println( "\nCancelar Pedido ");	
+				System.out.println( "\n Sair ");	
 				break;
 			default:
 				System.out.println( "\nOpção Inválida!\n");

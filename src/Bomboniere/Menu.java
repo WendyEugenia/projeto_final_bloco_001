@@ -42,19 +42,19 @@ public class Menu {
 			
 			switch (opcao) {
 			case 1:
-				System.out.println( "\n Adicionar Produto ");			
+				System.out.println( "\n Adicionar Produto \n ");			
 				break;
 			case 2:
-				System.out.println( "\n Buscar produto");				
+				System.out.println( "\n Buscar produto \n");				
 				break;
 			case 3:
-				System.out.println( "\nListar produtos por ID");		
+				System.out.println( "\nListar produtos por ID \n");		
 				break;
 			case 4:
-				System.out.println("\nAtualizar produto");		
+				System.out.println("\nAtualizar produto \n");		
 				break;
 			case 5:
-				System.out.println( "\nCancelar Pedido ");	
+				System.out.println( "\nCancelar Pedido \n");	
 				break;
 			default:
 				System.out.println( "\nOpção Inválida!\n");

@@ -1,7 +1,8 @@
 package Bomboniere;
 
 import Bomboniere.model.Produtos;
-
+import Bomboniere.model.Bala;
+import Bomboniere.model.Pirulito;
 import java.util.Scanner;
 
 @SuppressWarnings("unused")
